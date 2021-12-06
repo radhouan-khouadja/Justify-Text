@@ -1,0 +1,28 @@
+{
+  "name": "justify-text-api",
+  "version": "1.0.0",
+  "description": "api to justify text with nodejs ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d",
+    "test": "jest --coverage"
+  },
+  "author": "radhouan khouadja",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jest": "^27.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.2.1"
+  }
+}
